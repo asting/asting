@@ -1,0 +1,139 @@
+/* ------- Start Review Tabs ------- */
+#tabs_content {
+	background-color:#fff; /*position: relative;*/
+	height:auto;
+	width:498px;
+	margin-bottom:10px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	float:left;
+	border-top: none;
+}
+.breview { /*height:160px; position:absolute;*/
+	/*position: relative;*/
+	width:500px;
+	padding:0px;
+}
+#tabs {
+	margin:0px;
+	list-style:none;
+	padding:0px;
+}
+ @-moz-document url-prefix() {
+#tabs {
+ margin-bottom:1px;
+ list-style:none;
+ padding:0px;
+}
+}
+#tabs li {
+	background-color:transparent;
+	float:left;
+	list-style:none;
+}
+#tabs li a {
+	background-color:#ddd;
+	color:#333;
+	display:block;
+	height:20px;
+	padding:10px;
+	text-decoration:none;
+	width:108px;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	font-size:13px;
+	text-align:center
+}
+#tabs li a.active {
+	background-color:#fff;
+	color:#000;
+	border-bottom: none;
+}
+/* ------- End Review Tabs ------- */
+
+/* ------- Start Review Pop-up ------- */
+
+
+#review_content {
+	width:496px;
+	background:#eeeeee;
+}
+#review_content form {
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:496px;
+}
+#review_content #review_title {
+	background-color:#ffffff;
+	height:20px;
+	float:left;
+	padding:8px;
+	width:480px;
+	border-bottom:2px #ddd solid;
+}
+#review_content #title_strong {
+	font-size:16px;
+	color:#ffffff;
+	font-weight:bold;
+	display:block;
+	float:left;
+	margin-top: 2px;
+	display:block;
+	width:450px;
+	text-align:center;
+}
+#review_content #select_order {
+	background-color:#eeeeee;
+	float:left;
+	padding:8px 8px 4px 15px;
+	width:473px;
+	margin-top: 8px;
+}
+#review_content .radio_item {
+	font-size:13px;
+	color:#000000;
+	float:left;
+	padding-left:25px;
+	width:130px;
+}
+#review_content #write_text_area {
+	float:left;
+	width:466px;
+	padding:1px;
+	background-color:#eeeeee;
+	height:80px;
+	padding:10px 15px;
+	border-top: 2px #ffffff solid;
+}
+#content_hide #special_textarea {
+	float:left;
+	font-size:14px;
+	color:#666666;
+	border: none;
+	background:url(/static/v4/images/review_textarea.jpg) no-repeat;
+	padding:10px;
+	width: 438px;
+	height:55px;
+	outline:none;
+}
+#content_hide #write_submit {
+	float:left;
+	width:456px;
+	padding:1px;
+	background-color:#eeeeee;
+	height:40px;
+	padding:15px 20px;
+	text-align:center;
+	border-top: 2px #ffffff solid;
+}
+#content_hide #submit_review {
+	border: none;
+	background:url(/static/v4/images/new/submit_buttonN.png) no-repeat;
+	width: 113px;
+	height:35px;
+	outline:none;
+	
+}
+
+/* ------- End Review Pop-up ------- */

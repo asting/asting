@@ -1,0 +1,36 @@
+.serving {
+  width: 300px;
+}
+
+.day_line{
+	border:4px #edebeb solid;
+	border-bottom:0px;
+	padding:5px;
+	float:left;
+	width:100%;
+}
+.day_last {
+  border: 4px solid #EDEBEB;
+  margin-bottom: 20px;
+}
+
+.today{
+    background:#edebeb;
+}
+
+.day_title{
+	font-size:15px;
+	color:#790000;
+	display:block;
+	float:left;
+	font-weight:bold;
+	width:50px;
+	height:20px;
+	text-align:center;
+}
+.day_hour{
+	font-size:13px;
+	color:#333333;
+	display:block;
+	text-align:center;
+}

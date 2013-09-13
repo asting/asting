@@ -1,0 +1,119 @@
+/* ------- Start Footer ---------- */ 
+#footer {
+    padding: 0; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+    background:url(/static/v4/images/new/footer/main_footer.jpg);
+    height: 256px;
+	color:#FFFFFF;
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	left:0px;
+}
+#footer_container{
+	margin:0 auto;
+	width: 980px;
+}
+#xfooter_icons {
+    padding-top: 16px;
+    height:70px;
+    float:left;
+    width: 981px;
+}
+#xfooter_icons a {
+	display:inline-block;
+	zoom: 1;
+    *display: inline;
+    padding-top:40px;
+    font-size:11px;
+    color:#EEEEEE;
+    width:100%;    
+    text-decoration:none;
+}
+#xfooter_icons a:hover {
+    color:#999999;
+    text-decoration:none;
+}
+#xfooter_icons .iconbox{
+   display:inline-block;
+   zoom: 1;
+   *display: inline;
+   text-align:center;
+   height:39px;
+   text-transform:uppercase;
+   margin-right:52px;
+}
+
+#xfmobile{
+    background:url(/static/v4/images/new/footer/mobile.png) center no-repeat;  
+}
+#xchat {
+    background:url(/static/v4/images/new/footer/chat.png) center no-repeat;
+}
+#xabout_us {
+    background:url(/static/v4/images/new/footer/about.png) center no-repeat;
+}
+#xcontact_us {
+    background:url(/static/v4/images/new/footer/contact.png) center no-repeat;
+}
+#xdeveloper {
+    background:url(/static/v4/images/new/footer/developer.png) center no-repeat;
+}
+#xfacebook{
+    background:url(/static/v4/images/new/footer/facebook.png) center no-repeat;
+}
+#xtwitter{
+    background:url(/static/v4/images/new/footer/twitter.png) center no-repeat;
+}
+#xrestaurant_owners {
+	margin-right:0px!important;
+    background:url(/static/v4/images/new/footer/owners.png) center no-repeat;  
+}
+#footer_cities {
+    line-height:20px;
+    font-size:12px;
+    color:#FFFFFF;
+    padding: 20px 0px 0 0px;
+    text-align:center;
+    float: left;
+    width: 982px;
+}
+#footer_cities h1 {
+    font-size:13px;
+    color:#FFFFFF;
+    display:inline;
+    font-weight:normal;
+}
+#footer_cities h1 a {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+#footer_cities h1 a:hover {
+    color:#CCCCCC;
+    text-decoration:none;
+}
+#footer_cities .cuisines {
+	display: inline-block;
+	margin-top: 20px;
+
+}
+#footer_text {
+    padding: 0 20px 0 20px;
+    line-height:18px;
+    font-size:12px;
+    float: left;
+    width: 940px;
+}
+#footer_text a {
+    font-size:12px;
+    color: #FFFFFF;
+    text-decoration:none;
+}
+#footer_text a:hover {
+    font-size:12px;
+    color:#999999;
+    text-decoration:none;
+}
+#footer_text span {
+    margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+}
+/* ---------- End Footer --------- */

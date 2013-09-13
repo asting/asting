@@ -1,0 +1,58 @@
+/* thumbnail slider begin */
+
+/* apply the gallery design - links slider */
+.gallery_container {  
+	width:292px!important; 	
+	display:block; 
+	position:relative;
+	margin:0px auto; 
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: solid 1px #BDBDBD;
+}
+/* the width is set to show the number of thumbnails that will be visible */
+.thumb_container{ position:relative ; overflow:hidden ; margin:0px auto 0px;  }
+/* the thumbnails container */
+.thumbs { white-space:nowrap; display:block; position:relative;}
+
+.thumbs a { padding:0px; margin:0px; }
+.thumbs a img{ /*border:1px #BDBDBD solid;*/ }
+
+/* the forward and backward buttons */
+.addfwd { display:block; position:absolute; cursor:pointer; width:16px; height:16px; bottom:19px; right:15px; background:url(../images/gallery_next_new.png) no-repeat;  }
+.addbkwd { display:block; position:absolute; cursor:pointer; width:16px; height:16px; bottom:19px; left:15px; background:url(../images/gallery_back_new.png) no-repeat;  }
+/* thumbnail slider end */
+
+.notes_gallery_container {  
+	width:200px!important; 	
+	display:block; 
+	position:relative;
+	margin:0px auto;
+	margin-top:5px; 
+}
+
+#SlideItMoo_inner{
+    position:relative ;
+    overflow:hidden ;
+    width:474px ; /* set a display width to make the slider look good in case js is disabled */
+    margin:0px auto 0px;
+    padding:10px 0px 10px;
+}
+#SlideItMoo_items {
+    display:block;
+    position:relative;
+}
+
+/* the width is set to show the number of thumbnails that will be visible */
+.notes_thumb_container{ position:relative ; overflow:hidden ; margin:0px auto 0px;  }
+/* the thumbnails container */
+.notes_thumbs { white-space:nowrap; display:block; position:relative;}
+
+.notes_thumbs a { padding:0px; margin:0px; }
+.notes_thumbs a img{ border:1px #BDBDBD solid; }
+img.notes-item-image-small{
+	width:175px;
+	max-height:130px;
+}
+.notes_gallery_container  .addfwd { display:block; position:absolute; cursor:pointer; width:16px; height:16px; bottom:6px; right:-6px; background:url(../images/gallery_next_new.png) no-repeat;  }
+.notes_gallery_container  .addbkwd { display:block; position:absolute; cursor:pointer; width:16px; height:16px; bottom:6px; left:-6px; background:url(../images/gallery_back_new.png) no-repeat;  }

@@ -1,0 +1,122 @@
+#my-usual-content {
+	float: right;
+	width: 343px;
+	padding: 0px 30px;
+	margin: 20px 0px;
+	height: 220px;
+	background: url(/static/v4/images/new/dots.png) repeat-y;
+	position: relative;
+	overflow: hidden;
+}
+#my-usual-content-ttl {
+	margin-bottom:10px;
+}
+#my-usual-container {
+	float: left;
+	overflow: hidden;
+	height: 196px;
+	width: 343px;
+}
+.my-usual-rest {
+	float: left;
+	width: 65px;
+	height: 65px;
+	border: 1px solid #cccccc;
+	margin: 10px 22px 18px;
+	-webkit-box-shadow: 1px 2px 7px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 2px 7px 0px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 2px 7px 0px rgba(0, 0, 0, 0.4);
+}
+.my-usual-rest-name {
+	font-size: 10px;
+	color: #444;
+	height: 11px;
+	overflow: hidden;
+	text-align: center;
+}
+.my-usual-rest-info {
+	position: absolute;
+	top: 16px;
+	left: 410px;
+	background: white;
+	width: 343px;
+	height: 200px;
+	opacity: 0;
+	z-index:1;
+	padding-top: 16px;
+}
+.my-usual-rest-close {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+.rest-info-container {
+	position:relative;
+}
+.rest-info-logo {
+	width: 65px;
+	height: 65px;
+	border: 1px solid #cccccc;
+	position: absolute;
+	top: 24px;
+	-webkit-box-shadow: 1px 2px 7px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 2px 7px 0px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 2px 7px 0px rgba(0, 0, 0, 0.4);
+}
+.rest-info-name {
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	top: 24px;
+	left: 80px;
+	max-width: 256px;
+	height: 16px;
+	overflow: hidden;
+}
+.rest-info-rating {
+	position: absolute;
+	top: 42px;
+	left: 80px;
+	width: 256px;
+	line-height: 20px;
+}
+.rest-info-rating-empty {
+	background: url(/static/v4/images/star_empty.png) repeat-x;
+	float: left;
+	height: 15px;
+	margin-top: 2px;
+	vertical-align: top;
+	width: 75px
+}
+.rest-info-rating-full {
+	background: url(/static/v4/images/star.png) repeat-x scroll left top transparent;
+	height: 15px;
+	vertical-align: top;
+}
+.info-txt {
+	color: #333;
+	font-size: 12px;
+	position: absolute;
+}
+.rest-info-cuisines {
+	width: 256px;
+	height: 16px;
+	overflow: hidden;
+	top: 63px;
+	left: 80px;
+	font-size:10px;
+}
+.rest-info-detail {
+	top: 80px;
+	left: 80px;
+}
+.rest-info-btn-orders {
+	position: absolute;
+	top: 115px;
+}
+.rest-info-btn-menu {
+	position: absolute;
+	top: 115px;
+	right: 10px;
+}

@@ -1,0 +1,261 @@
+#menu_outer {
+    /*border: 1px #bdbdbd solid;*/
+    background: #FFFFFF;
+    margin: 20px 25px 20px 20px;
+}
+
+#menu_outer,
+#menu_inner,
+#menu_items{
+    width:600px;
+    height:auto;
+}
+
+#menu_inner {
+    position:relative ;
+    overflow:hidden ;
+    margin:0px auto 0px;
+}
+#menu_items {
+    display:block;
+    position:relative;
+}
+/* remember after styling to set the itemWidth parameter on class instance */
+#menu_items .menu{
+    display:block;
+    position:relative;
+    float:left;
+}
+#prev_title,
+#next_title{
+    display:block;
+    position:relative;
+    float:left;
+    font-size:16px;
+    color:#03145F;
+    font-weight:bold;
+    padding:10px 0px;
+    line-height:50px;
+    cursor:pointer;
+}
+#next_title{
+    float:right;
+    margin-left:auto;
+    width: 600px;
+    text-align: center;
+}
+#prev_title img{
+    margin-left:8px;
+}
+#next_title img{
+    margin-right:8px;
+}
+
+.menu {
+    float: left;
+    width: 570px;
+    padding: 15px;
+    display: inline;
+}
+
+#legend_flt {
+    padding: 4px 0 12px;
+    /*background-color: #F7F7F7;*/
+    font-size: 10px;
+    line-height: 18px;
+    text-align: center;
+    border-bottom: 3px #CCC double;
+	margin: 0px 10px;
+}
+#legend_flt label {
+    font-size: 10px;
+    font-weight: bold;
+    color: #666;
+}
+#legend_flt img {
+    padding: 2px 5px 0 0;
+}
+#legend_flt .flt {
+    font-size: 10px;
+    font-weight: bold;
+    color: #666;
+    padding-right: 6px;
+    display: inline;
+}
+#legend_flt .flt input{
+    vertical-align: bottom;
+}
+
+.menu_hours {
+    background-color:#eeeeee;
+    width:934px;
+    float:left;
+    padding-top: 13px;
+    padding-right: 22px;
+    padding-bottom: 0px;
+    padding-left: 22px;
+    height: 42px;
+	border-bottom: 1px solid #CCC;
+}
+
+.menu_hours span {
+    font-size:14px;
+    color:#444;
+    font-weight:bold;
+    display:block;
+    width:800px;
+    float:left;
+    margin-top: 10px;
+}
+
+.menu_hours a {
+    float: right;
+}
+
+.menu_name {
+    font-size:20px;
+    color:#790000;
+    font-weight:bold;
+    float:left;
+    display: block;
+    margin-bottom:10px;
+}
+
+.menu form {
+    float: right;
+    width: 330px;
+    _width: 340px;
+    height: 30px;
+    margin: 0px 0px 10px 0px;
+}
+
+.section {
+	/*background: url(/static/v4/images/new/bgN4.jpg);*/
+    background-color: #eeeeee;
+	width: 957px;
+	padding: 7px 0px 6px 21px;
+	border-bottom: 1px solid #CCC;
+}
+
+#section_usual{
+    color: #000000;
+    background: #ffb010;
+}
+
+div.section2 {
+    width: 550px;
+    display: block;
+    clear: both;
+    margin-top: 10px;
+    color: white;
+    /*background: #790000;*/
+	background: url(/static/v4/images/new/secBgN1.jpg) repeat;
+    padding: 5px 10px;
+}
+div.section2 a {
+    float: right;
+}
+div.section2 div {
+    font-size:16px;
+    font-weight:bold;
+}
+div.section2 span {
+    font-size:12px;
+}
+.item_icon {
+    margin-left: 5px;
+}
+.menu_section_desc {
+    font-size:12px;
+    width:535px;
+    float:left;
+}
+/*=========== Sidemenu ================*/
+#sidemenu {
+    float: left;
+    margin-left: -35px;
+    width: 36px;
+    height: 175px;
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+#sidebox {
+    background: #eeeeee;
+    border:1px solid #BDBDBD;
+    display:none;
+    left:0;
+    position:absolute;
+    top:0;
+    width: 250px;
+    z-index:10;
+}
+#sidebox ul{
+    font-size:13px;
+    padding:0px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    float:left;
+    width:250px;
+    margin:0px;
+}
+#sidebox .side_sections li{
+    background:#ffffff url(/static/v4/images/new/section_iconN1.png) no-repeat;
+    margin: 3px 0px;
+    padding:4px 5px 0px 24px;
+    line-height:20px;
+    list-style:none;
+}
+#sidebox .side_sections li a{
+    display:inline-block;
+    margin-bottom:3px;
+
+}
+
+#sidebox .side_menus li{
+    margin: 0px 0px;
+    padding:5px 5px;
+    line-height:20px;
+     list-style-type: none;
+    border-bottom: 2px solid #ffffff;
+}
+#sidebox .side_menus li a{
+    color:#790000;
+    font-weight:bold;
+    font-size:14px;
+}
+
+#sidebox .side_menus li img{
+  display: none;
+}
+#sidebutton{
+    display: block;
+}
+.sidename {
+    height: 23px;
+}
+
+.sidename a {
+ display: block;
+}
+
+#gototop {
+    display: none;
+    font-weight: bold;
+    font-family: tahoma;
+    font-size: 10px;
+    width: 85px;
+    background: url(/static/ext/ScrollSpy/Img/add_content_spr.gif) 5px -8px no-repeat #eceff5;
+    color: #3b5998;
+    border: 1px #dcdfe5 solid;
+    font-size: 11px;
+    text-decoration: none;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    padding: 7px 7px 7px 20px;
+}
+
+#gototop:hover {
+    text-decoration: underline;
+}

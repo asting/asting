@@ -1,0 +1,97 @@
+#change_add_form{
+    margin:0px;
+    padding:0px;
+    float:left;
+    width:400px;
+}
+#change_add_content {
+    width:400px;
+}
+
+.change_add_title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    color:#000000;
+    display:block;
+    float:left;
+    margin:3px 10px 0px 0px;
+    width:110px;
+    text-align:left;
+}
+.change_add_title_div input{
+    display:block;
+    float:left;
+}
+
+.change_add_title_div{
+    background-color:#eeeeee;
+    float:left;
+    padding:15px 10px;
+    width:380px;
+    border-bottom:2px #ffffff solid;
+}
+.msg{
+    text-align: justify;
+    font-weight:normal;
+    font-size:13px;
+}
+.input_big {
+    background:url("/static/v4/images/form_field_bg.jpg") no-repeat scroll 0 0 transparent;
+    border:medium none;
+    color:#666666;
+    float:left;
+    font-size:16px;
+    margin:0;
+    outline:medium none;
+    padding:4px 8px 6px;
+    width:240px;
+}
+.input_mid {
+    background:url("/static/v4/images/check_out_input_big.jpg") no-repeat scroll 0 0 transparent;
+    border:medium none;
+    color:#666666;
+    float:left;
+    font-size:16px;
+    margin:0;
+    outline:medium none;
+    padding:4px 8px 6px;
+    width:158px;
+}
+.input_small {
+    background:url("/static/v4/images/check_out_input_small.jpg") no-repeat scroll 0 0 transparent;
+    border:medium none;
+    color:#666666;
+    float:left;
+    font-size:16px;
+    margin:0;
+    outline:medium none;
+    padding:4px 8px 6px;
+    width:103px;
+}
+
+.change_add_submit{
+    float:left;
+    width:360px;
+    padding:1px;
+    background-color:#eeeeee;
+    height:40px;
+    padding:15px 4px;
+    text-align:center;
+}
+.change_add_submit_big{
+    float:left;
+    width:360px;
+    padding:1px;
+    background-color:#eeeeee;
+    height:53px;
+    padding:15px 4px;
+    text-align:center;
+}
+#change_add_submit_btn {
+    border: none;
+    background:url(/static/v4/images/new/submit_buttonN.png) no-repeat;
+    width: 113px;
+    height:35px;
+    outline:none;
+}

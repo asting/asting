@@ -1,0 +1,75 @@
+.gray_table .fm_checkbox, .gray_table .fm_radio {
+  width: 240px;
+  float: left;
+}
+.gray_table .fm_checkbox label {
+  white-space: nowrap;
+}
+
+.gray_table .fm_checkbox label input{
+  margin: 1px 5px;
+}
+
+table.gray_table {
+  border-collapse: separate;
+  border-spacing: 3px;
+  border: 1px solid #000;
+  background-color: #dadada; /*#D4D0C8;*/
+  color: #000;
+  font-size: 16px;
+}
+
+.gray_table textarea {
+  width:100%;
+  margin-right: 5px;
+  border: 0;
+  font-size: 12pt;
+}
+
+.gray_table th, .gray_table td {
+  color: #000;
+  font: 8pt Verdana;
+  border-top: 1px solid #eee;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  border-left:1px solid #eee;
+}
+
+
+/*.gray_table tbody tr:hover td, */
+.gray_table td#item_name{
+  background-color: #eaeaea;
+  border-right: 1px solid #eee;
+  border-top: 1px solid #999;
+  border-left: 1px solid #999;
+  border-bottom: 1px solid #eee;
+}
+
+
+.gray_table th {
+  font-weight: bold;
+  text-align:center;
+}
+
+.gray_table tr > th {
+  text-align: right;
+}
+
+.gray_table td {
+  text-align:left;
+}
+
+.gray_table td input[type=submit]{
+  text-align:center;
+}
+
+.gray_table #item_name {
+  font-size: 16pt;
+  white-space: normal;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.gray_table #item_name span {
+  font-size: 10pt;
+}

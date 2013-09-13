@@ -1,0 +1,132 @@
+/* ------- Start Cusine Pictures ------------ */
+ #cusine_shortcuts {
+	background-color:#FFFFFF;
+	margin: 0px;
+	border:solid 1px #bbbbbb;
+	height:154px;
+	width: 948px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+#cusine_img {
+	margin:0px;
+	float: left;
+	width:940px;
+	height:125px;
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.cusine_img_item {
+	float: left;
+	padding:0px;
+	width:170px;
+	height:125px;
+	margin-top: 0;
+	margin-right: 22px;
+	margin-bottom: 0;
+	margin-left: 0px;
+}
+.cusine_img_item_last {
+	float: left;
+	padding:0px;
+	width:170px;
+	height:125px;
+}
+#cusine_link {
+	float: left;
+	font-size:14px;
+	margin:0px;
+	float: left;
+	width:940px;
+	height:27px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.cusine_link_item {
+	background:url(/static/v4/images/new/shortcut_bottomN.jpg) top no-repeat;
+	float: left;
+	width:170px;
+	height:27px;
+	margin-top: 0;
+	margin-right: 22px;
+	margin-bottom: 0;
+	margin-left: 0px;
+}
+.cusine_link_item_last {
+	background:url(/static/v4/images/new/shortcut_bottomN.jpg) top no-repeat;
+	float: left;
+	width:170px;
+	height:27px;
+}
+.cusine_link_item h3, .cusine_link_item_last h3 {
+	line-height:26px;
+	padding: 0 0 0 20px;
+	font-weight:bold;
+}
+.cusine_link_item a, .cusine_link_item a h3, .cusine_link_item_last a, .cusine_link_item_last a h3 {
+	white-space:nowrap;
+	display: block;
+	float: left;
+	color: #FFF;
+	text-decoration: none;
+	margin:0px;
+	border:0px;
+	font-weight:bold;
+}
+/* Hide from IE5-Mac \*/
+.cusine_link_item a, .cusine_link_item a h3, .cusine_link_item_last a, .cusine_link_item_last a h3 {
+	float: none;
+}
+/* End hide */
+
+
+/* -------- End Cusine Picture ------ */ 
+
+/* ------- Start Cusine Pictures Small ----- */
+.oneColFixCtrHdr #cusine_shortcuts_formate2 {
+	background-color:#FFFFFF;
+	margin: 0px;
+	border:solid 1px #bbbbbb;
+	height:129px;
+	width: 948px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+.oneColFixCtrHdr #cusine_img_formate2 {
+	margin:0px;
+	float: left;
+	width:940px;
+	height:100px;
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.oneColFixCtrHdr .cusine_img_item_formate2 {
+	float: left;
+	padding:0px;
+	width:170px;
+	height:100px;
+	margin-top: 0;
+	margin-right: 22px;
+	margin-bottom: 0;
+	margin-left: 0px;
+}
+.oneColFixCtrHdr .cusine_img_item_last_formate2 {
+	float: left;
+	padding:0px;
+	width:170px;
+	height:100px;
+}
+
+/* ------- End Cusine Pictures Small ---------- */

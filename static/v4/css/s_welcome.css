@@ -1,0 +1,153 @@
+@import 'search_box_address.css?e24v=57';
+@import 'cuisines_pics.css';
+@import 'my-usual.css';
+
+/* ------ Start s_Welcome Content --------- */ 
+#main_contents {
+    background-color:#FFFFFF;
+    margin:  0;
+    border:solid 1px #bbbbbb;
+    padding: 35px;
+	height:100%;
+}
+#main_content_left {
+    float:left;
+    width:319px;
+}
+#main_content_left_middle {
+    float: left;
+    background-image: url(/static/v4/images/reviews_bg_middle.jpg);
+    background-repeat: repeat-y;
+}
+#main_content_left_title {
+    font-size:19px;
+    padding: 8px 0 0 25px;
+    color:#000;
+    height:35px;
+    width:294px;
+    font-weight:bold;
+    float:left;
+}
+.main_content_left_img {
+    width:60px;
+    float:left;
+    padding-left:20px;
+}
+.main_content_left_text {
+    font-size:13px;
+    color:#333;
+    width:219px;
+    float:left;
+    padding-right:20px;
+    line-height: 18px;
+}
+.main_content_left_text p {
+    text-align:right;
+    color:#790000;
+    margin:10px 0px 20px 0px;
+}
+.main_content_left_text p a {
+    color:#790000;
+    text-decoration:none;
+}
+#main_content_right {
+    float:right;
+    width:552px;
+}
+#main_content_right_title {
+    font-size:19px;
+    color:#333333;
+    height:30px;
+    width:432px;
+    font-weight:200;
+    float:left;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 120px;
+}
+.main_content_right_subtitle {
+    font-size:16px;
+    color:#790000;
+    height:30px;
+    width:410px;
+    font-weight:bold;
+}
+.main_content_right_img {
+    height:100px;
+    width:100px;
+    float:left;
+    margin-top:0px;
+    margin-bottom: 30px;
+}
+
+.main_content_right_text {
+    font-size:13px;
+    color:#333;
+    width:410px;
+    float:left;
+    margin-top:0px;
+    margin-bottom: 30px;
+    padding-top: 0;
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-left: 20px;
+    line-height: 19px;
+}
+#slogan{
+	float:left;
+}
+
+/* ------ End s_Welcome Content --------- */
+
+
+.addresses {
+  clear: both;
+  padding-top: 14px;
+}
+
+.addresses label{
+  color:#790000;
+  font-size:18px;
+  font-weight:bold;
+  padding:8px 0px 0px 23px;
+  clear:both;
+  float:left;
+}
+.addresses a{
+  color:#666;
+  font-size:12px;
+  font-weight: bold; 
+  text-decoration: underline;
+  margin-top:32px;
+  width: 104px;
+  float:right;
+}
+
+.addresses input{
+  margin: 20px 13px 0 150px;
+  float:left;
+}
+.addresses select{
+	font-size: 16px;
+	color: #666666;
+	border: none;
+	background: #dddddd;
+	width: 356px;
+	outline: none;
+  	clear:right;
+}
+.address_div{
+	/*background:#eee;*/ 
+	height:60px; 
+	padding:0px 12px; 
+	line-height:60px; 
+	border:1px solid #ddd;
+}
+#divSelect {
+	background: url(/static/v4/images/new/address_fieldN.png) no-repeat;	
+ 	padding: 8px;
+	width: 380px;
+	float:right;
+}

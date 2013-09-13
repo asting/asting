@@ -1,0 +1,112 @@
+.review_content{
+    border-top: 1px #dddddd solid;
+}
+.review-header-box{
+    margin:5px 0px 10px 0px;
+}
+.review-count{
+    color:#00000;
+    font-size:11px;
+    font-weight:bold;
+}
+.review-text{
+    font-size: 13px;
+    color: #333333;
+    line-height: 18px;
+}
+.review-a{
+    color:#4587db;
+}
+.review-a:hover{
+    color:#4587db;
+    text-decoration:underline;
+}
+.review-postedby{
+    font-size:10px;
+    margin-top:3px;
+    color: #333333;
+}
+.review-hr,.review-hr100prc{
+    margin:10px 0px;
+}
+.review-hr100prc{
+    width:100%;
+}
+.review-postedby a{
+    font-size:10px;
+}
+a.reviews-all{
+    color:#4587db;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:underline;
+    display:block;
+    text-align:center;
+    margin:5px 0px;
+}
+.reviews-box{
+    padding: 20px;
+    border: solid 1px #cccccc;    
+}
+.reviews-header{
+    background: #eeeeee;
+    border: 1px solid #cccccc;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight:bold;
+    border-bottom:none;
+}
+.reviews-header img{
+    margin-left:40px;
+
+}
+.review-user-pic{
+    display:block;
+    margin:0px;
+    float:left;
+    width:20px;
+    margin-right:10px
+}
+.hrestaurant-review-rating{
+    display:block;
+    margin:0px;
+    float:left;
+}
+.hrestaurant-review-content{
+    margin-left:30px;
+}
+.hrestaurant-review-bottom{
+    margin-top:30px;
+    position:relative;
+}
+.hrestaurant-yelp-logo{
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+.left-review-header{
+    width: 520px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom:10px;
+}
+.right-review-header{
+    width: 395px;
+    float: left;
+    margin-top:15px;
+    margin-bottom:10px;    
+}
+.top-review-rating{
+    font-size:16px;
+    font-weight:bold;
+    margin-right:10px;
+    margin-top:5px;
+}
+.add-review-button{
+    
+}
+.add-review-button img{
+    border:solid 0px black;
+}

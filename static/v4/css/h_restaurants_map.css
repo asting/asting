@@ -1,0 +1,330 @@
+.DataBox{
+    margin:15px 0px;
+    position:relative;
+}
+
+#GoogleMapCanvasBorder{
+    border:solid 1px #dddddd;
+}
+
+.IconDescription{
+    padding:5px;
+    padding-top:10px;
+    text-align:right;
+    border-top:solid 1px #dddddd;
+}
+.IconDescription .Icon{
+    font-size:12px;
+    color:black;
+    float:left;
+    width:135px;
+    margin: 0px 5px;
+}
+.IconDescription .Icon_left{
+    font-size:12px;
+    color:black;
+    float:left;
+    width:262px;
+    text-align:left;
+    padding-top:10px;
+    
+}
+#content_list_results{
+    line-height:16px;   
+}
+.ResultTypes{
+    float:left;
+    width:200px;
+    margin-top:3px;
+    color:gray;
+    font-size:13px;
+}
+.ResultTypes a{
+    color:#009;
+    text-decoration:underline;
+    font-weight:bold;
+    font-size:10px;
+    display:inline-block;
+    padding-left:25px;
+    height:21px;
+    line-height:21px;    
+}
+.ResultTypes a.ListActive{
+    /*background:url(/static/v4/images/list_icon.png) no-repeat;*/
+    background:url(/static/v4/images/restaurants_view/list_icon.png) no-repeat;
+}
+.ResultTypes a.ListnoActive{
+    color:gray;
+    text-decoration:none;
+    /*background:url(/static/v4/images/list_icon_g.png) no-repeat;*/
+    background:url(/static/v4/images/restaurants_view/list_icon.png) no-repeat;     
+}.ResultTypes a.MapActive{
+    /*background:url(/static/v4/images/map_view.png) no-repeat;*/
+    padding-left:23px;
+    background:url(/static/v4/images/restaurants_view/maps_icon.jpg) no-repeat;
+}
+.ResultTypes a.MapnoActive{
+    color:gray;
+    text-decoration:none;
+    padding-left:23px;
+    /*background:url(/static/v4/images/map_view_g.png) no-repeat;*/
+    background:url(/static/v4/images/restaurants_view/maps_icon.jpg) no-repeat;
+}
+.ResultTypes a.CouponActive{
+    /*padding-left:14px;
+    background:url(/static/v4/images/coupon_view/coupon_icon.jpg) no-repeat;*/
+    margin-left:4px;
+    padding-left:28px;
+    background:url(/static/v4/images/restaurants_view/coupons_icon.jpg) no-repeat;
+}
+.ResultTypes a.CouponnoActive{
+    /*padding-left:14px;
+    background:url(/static/v4/images/coupon_view/coupon_icon_unselected.jpg) no-repeat;
+    */
+    margin-left:4px;
+    padding-left:28px;
+    color:gray;
+    text-decoration:none;
+    background:url(/static/v4/images/restaurants_view/coupons_icon.jpg) no-repeat;
+}
+.content_list_right_pg2{
+    float:right;
+}
+#RestList{
+    width:360px;
+    padding:0px 0px;
+    float:left;    
+}
+.RestBox{
+    padding:8px 0px 10px 10px;
+    width:333px;
+    cursor:pointer;
+    cursor:hand;
+    background: #AF0505;
+    /*border: 1px solid #AF0505;*/
+    margin-bottom:15px;
+    position:relative;
+}
+.pickonly_icon{
+   position: absolute;
+    top:0; 
+    right:0;
+}
+.closed{
+    background:#444444;
+    /*border: 1px solid #444444;*/
+}
+
+.RestBox .Distance{
+    display:none;
+    font-size:12px;
+}
+.RestBoxActive{
+
+}
+.RestBox .RestMarkerImage{
+    float:left;
+    margin-right:10px;
+    display:block;
+}
+.RestBox .RestLogo{
+    float:left;
+    margin:0px 8px 0px 0px;
+    display:block;
+    width:50px;
+    height:50px;
+    border:solid 1px #dddddd;
+}
+.RestBox a.Name,.RestBox .number,.RestBox a.Name2{
+    color:#ffffff;
+    font-size:15px;
+    font-weight: bold;    
+    margin-bottom:3px;
+    display:inline-block;
+}
+.RestBox a.Name2{
+    display:none;
+    margin:0px;
+}
+.RestBox .Address{
+    font-size:12px;
+    width:259px;
+    color:#ffffff;
+    height: 18px;
+    overflow: hidden;
+    line-height:18px;
+}
+.RestBox .rating_stars{
+    width:auto;
+    float:none;
+    margin:0px;
+    color:#ffffff;
+}
+.RestBox .rating_stars .rating_count{
+    color:#ffffff;
+}
+.RestBox .Cuisines{
+    font-size:12px;
+    margin-left:8px;
+    color:gray;
+}
+.RestBox .content_list_viewmenu{
+    float:none;
+    margin:16px 30px 0px;
+    width:260px;
+    text-align:center!important;
+}
+.RestBox .content_list_viewmenu a{
+    float:none;
+    display:inline-block;
+    text-align:left!important;
+}
+.RestBox .rest_info{
+    margin-top:3px;
+}
+.RestBox .rest_info .info, .RestBox .rest_info .info_middle{
+    font-weight:bold;
+    font-size:12px;
+    margin-right:7px;
+    float:left;
+    color:#ffffff;
+}
+.RestBox .OpenClosed{
+    width:99%;
+    margin:0px;
+    margin-bottom:3px; 
+    /*display:none;*/   
+}
+.RestBox .restclosed_msg, .rest_msg, .restaurant_msg{
+    display:none;
+}
+
+.restaurantclosed_msg {
+    background-color: #EEEEEE;
+    border: 1px solid #DDDDDD;
+    font-size: 10px;
+    height: 19px;
+    margin-top: 15px;
+    padding-top: 1px;
+    width: 341px;
+}
+.restaurantclosed_msg .closed_msg_left {
+    color: #B40202;
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 5px;
+}
+.restaurantclosed_msg .closed_msg_right {
+    color: #B40202;
+    display: block;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding-right: 5px;
+}
+
+.RestBox .free{
+    color:#ffffff;
+    font-weight:700;
+}
+.RestBox .Ext{
+    display:none;
+}
+.Ballon:hover{
+    background:#ffffff;
+}
+.Ballon{
+    width:auto;    
+    border:none;
+    background:#ffffff;
+    border:none;
+    margin-bottom:0px;
+}
+.Ballon .rest_info{
+    display:block;
+    color:#000000;
+}
+.Ballon .rest_info .info, .Ballon .rest_info .info_middle{
+    font-weight:bold;
+    font-size:12px;
+    margin-right:7px;
+    float:left;
+    color:#000000;
+}
+.Ballon a.Name{
+    display:block;
+    margin-bottom:4px; 
+    color:#000099;
+    text-decoration:underline;
+}
+
+.Ballon .number {
+    color: #000099;
+}
+.Ballon a.Name2{
+    display:none;  
+    color:#000099;
+    text-decoration:underline;
+}
+.Ballon .Address{
+    color:#000000;   
+    display:block;
+}
+
+.Ballon .rating_stars .rating_count{
+    color:#000000;
+}
+.Ballon .RestMarkerImage{
+    display:none;
+}
+.Ballon .Ext{
+    display:block;
+}
+.Ballon .free{
+    color:#000000;   
+    font-weight:700;
+}
+.Ballon .restclosed_msg{
+    display:block;
+    padding-top:6px;
+    font-size:12px;
+    color:#b40202;
+    text-align:center;
+    font-weight:bold;
+    width:320px;
+    
+}
+.Ballon .rest_msg{
+    display:none;
+}
+
+#content_list_results_v2{
+    padding-top:2px;
+    float:left;
+    width:100%; 
+}
+.ResultTypes2{
+    width: 282px;
+    text-align:right;
+}
+.cb_icon_map {
+    background: url(/static/v4/images/cashcoupon_map-1.jpg) no-repeat;
+    width: 25px;
+    height: 15px;
+    display: inline-block;
+    margin-top:2px; 
+    padding: 0px 73px 0px 0px;
+    text-align:center;
+    line-height:12px;
+
+}
+.cb_icon_map span{
+    color: #ffffff;
+    font-size: 11px;
+    text-decoration: none;
+    font-weight:bold;
+}

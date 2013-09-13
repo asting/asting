@@ -1,0 +1,217 @@
+/**** Header, City and Logo ****/
+#headerBG{
+	background: url(/static/v4/images/new/headerBgN.jpg) repeat-x;
+}
+#header {
+	height: 140px;
+	position:relative;
+	width: 980px;
+    margin: 0 auto;
+	
+}
+.headerLogo {
+	position:absolute;
+	width:183px;
+	height:64px;
+	top:41px;
+	left:0px;
+}
+#cityHeading {
+	position:absolute;
+	top: 16px;
+	right: 366px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.h1_hungry h1 {
+	font-size:14px;
+	margin:0;
+	text-transform: uppercase;
+}
+.h1_slogan h1 {
+	font-size:14px;
+	margin: 6px 0 0 0 ;
+}
+.h1_city h1 {
+	font-size:14px;
+	margin: 0;
+	text-transform:uppercase;
+}
+#city_name h1 {
+	font-size:32px;
+	font-weight: lighter!important;
+	margin: 0;
+}
+#citySubHeading {
+	position:absolute;
+	top: 34px;
+	right: 366px;
+	color:#FFFFFF;
+}
+.h2_city h1 {
+	font-size:12px;
+	margin: 0;
+	font-weight: normal;
+}
+/**** Chat ****/
+.headerChat {
+	background: url(/static/v4/images/new/headerChat.png) no-repeat;
+	width:248px;
+	height:58px;
+	display:inline-block;
+	position:absolute;
+	top:3px;
+	right:0px;
+}
+.headerChatRed {
+	position:absolute;
+	top: 7px;
+	right: 92px;
+	font-weight:bold;
+	color:#9f0b0b;
+	font-size:13px;
+}
+.headerChatBlack {
+	position:absolute;
+	top:23px;
+	right:32px;
+	font-weight:bold;
+	color:#000000;
+	font-size:12px;
+}
+/**** Tabs and DropDown Menu ****/
+
+#mainTab {
+	position:absolute;
+	bottom:0px;
+	right:0px;
+}
+#mainTab ul, #mainTab li, #mainTab span, #mainTab a {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#mainTab:after, #mainTab ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+#mainTab a {
+	color: #ffffff;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	min-width: 35px;
+	text-align: center;
+	text-decoration: none;
+	font-weight:bold;/*text-shadow: 0 -1px 0 #333333;*/
+}
+#mainTab ul {
+	list-style: none;
+}
+#mainTab > ul > li {
+	float: left;
+}
+#mainTab > ul > li a {
+	background: #fa2504; /* Old browsers */
+	background: -moz-linear-gradient(top, #fa2504 0%, #9d0b06 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fa2504), color-stop(100%, #9d0b06)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fa2504 0%, #9d0b06 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fa2504 0%, #9d0b06 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fa2504 0%, #9d0b06 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #fa2504 0%, #9d0b06 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa2504', endColorstr='#9d0b06', GradientType=0 ); /* IE6-9 */
+	border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	line-height: 34px;
+	padding: 0 34px;
+	margin-right:7px;
+}
+#mainTab > ul > li a .imgTabLeft {
+	position: absolute;
+	top: 8px;
+	left: 11px;
+}
+#mainTab > ul > li a .imgTabRight {
+	position: absolute;
+	top: 12px;
+	right: 11px;
+}
+#mainTab > ul > li.active a {
+	background: url(/static/v4/images/new/bgN4.jpg);
+	color:#000000;
+	filter:0;
+}
+#mainTab > ul > #mobileTab a {
+	padding-right: 16px;
+}
+#mainTab > ul > #mobileTab a .imgTabLeft {
+	position: absolute;
+	top: 7px;
+	left: 11px;
+}
+#mainTab > ul > li:last-child a {
+	margin-right:0;
+	padding-left: 40px;
+}
+#mainTab .has-sub:hover ul {
+	display: block;
+	-webkit-box-shadow: -1px 5px 7px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: -1px 5px 7px 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: -1px 5px 7px 1px rgba(0, 0, 0, 0.4);
+}
+#mainTab .has-sub ul {
+	display: none;
+	position: absolute;
+	top: 34px;
+	left: 0;
+	min-width: 100%;
+	text-align: center;
+    /* IE7 */
+    *width: 100%;
+	z-index: 2;
+}
+#mainTab .has-sub ul li {
+	text-align: center;
+}
+#mainTab .has-sub:first-child ul li {
+	width: 242px;
+}
+#mainTab .has-sub ul li img {
+	position: absolute;
+	top: 7px;
+	left: 11px;
+}
+#mainTab .has-sub ul li a {
+	border: 1px solid #dddddd;
+	border-top: none;
+	display: block;
+	line-height: 120%;
+	padding: 9px 38px;
+	text-align: left;
+	background: url(/static/v4/images/new/bgN4.jpg);
+	color:#000000;
+	border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	margin-right:0;
+	filter:0;
+}
+#mainTab .has-sub ul li a:hover {
+	background: #fff4d7;
+}
+
+#header-fb, #header-tw{
+	position: absolute;
+	top: 6px;
+	width:48px;
+	height:48px;
+}
+#header-fb{
+	right: 305px; 
+}
+#header-tw{
+	right: 258px; 
+}
+

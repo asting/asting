@@ -1,0 +1,89 @@
+.container { overflow: hidden; }
+.container:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.hide, .hidden, .hidden1, .show0,.showinline0 { display: none;}
+.showinline1{display:inline;}
+.show, .hidden0, .show1 { display: block!important; }
+.inline, .inline1 { display: !important; }
+
+.__hiddeninline1, .__showinline0 {display:none !important;}
+
+.clear { clear:both; display:block;}
+.clear1 { clear:both; height:1px; font-size:1px; line-height:1px; }
+.has_js {display: none;}
+
+
+.no-margin { margin: 0!important; }   /* ������� ������� */
+.no-padding { padding: 0!important; }   /* ... */
+.no-bg { background: none!important; }    /* ������� ��� */
+
+.a-left { text-align: left; }
+.a-center { text-align: center; }
+.a-right { text-align: right; }
+
+/*********** Andr'U Sender ***********/
+.va-top { vertical-align: top; }
+.va-bottom { vertical-align: bottom; }
+.d-block { display:block; }
+/*************************************/
+
+.f-left { float: left; }
+.f-right { float: right; }
+.f-none{float:none;}
+.p5 {padding:5px;}
+.p10 {padding:10px;}
+.m5 {margin: 5px;}
+.m10 {margin: 10px;}
+
+.border {border: 1px solid red;}
+.center {
+  margin:0 auto;
+}
+
+img.f-left { margin-right: 1em; }
+img.f-right { margin-left: 1em; }
+
+.bold { font-weight:bold;}
+.smallest { font-size:9px;}
+.smaller { font-size:10px;}
+.small { font-size:11px;}
+.normal { font-size:12px;}
+.large { font-size:13px;}
+.larger { font-size:14px;}
+.largest { font-size:15px;}
+.max {font-size:16px;}
+
+.red, .free {color: #c80202;}
+
+.green {color: #008000;}
+.blue {color: #0202c8;}
+.white {color: #FFFFFF;}
+.silver {color: #C0C0C0;}
+.gray {color: #808080;}
+.black {color: #000000;}
+
+.bg_red {background-color: #fcc;}
+.bg_green {background-color: #cfc;}
+.bg_blue {background-color: #ccf;}
+.bg_white {background-color: #FFFFFF;}
+.bg_silver {background-color: #C0C0C0;}
+.bg_gray {background-color: #808080;}
+.bg_black {background-color: #000000;}
+
+.hand{
+    cursor:hand;
+    cursor: pointer;
+}
+.hand.underline-hover:hover{
+    text-decoration:underline;
+}
+
+.cf:before, .cf:after { content: " ";  display: table;}
+.cf:after { clear: both; }
+.cf {*zoom: 1;}

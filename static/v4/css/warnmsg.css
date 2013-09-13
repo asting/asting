@@ -1,0 +1,62 @@
+div.error {
+	background-color: #e6f6ff;
+	border: 3px solid #a00;
+	background-image: -moz-linear-gradient(top, #fee, #fcc); /* FF3.6 */
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #fcc), color-stop(1, #fee)); /* Saf4+, Chrome */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeeee', endColorstr='#ffcccc')"; /* IE8 */
+	margin:18px 0px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	-moz-box-shadow: 1px 1px 3px #c8c8c8;
+	-webkit-box-shadow: 1px 1px 3px #c8c8c8;
+	box-shadow: 1px 1px 3px #c8c8c8;
+	padding: 15px;
+	color: #333;
+	width: 940px;
+}
+div.error.Ipad {
+	background-color: #ffd942;
+	border: 3px solid #ffb010;
+	background-image: -moz-linear-gradient(top, #ffd942, #ffd942); /* FF3.6 */
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffd942), color-stop(1, #ffd942)); /* Saf4+, Chrome */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd942', endColorstr='#ffd942')"; /* IE8 */
+	position:relative;
+	cursor:pointer;
+}
+div.error.Ipad #app_arrow {
+	position: absolute;
+	top: 15px;
+	right: 14px;
+	width: 156px;
+	height: 35px;
+}
+
+div.error.Ipad #app_icon {
+	position: relative;
+	top: -10px;
+	padding-right: 10px;
+	width: 53px;
+	height: 54px;
+}
+
+div.error.Ipad > span.title {
+	color: #000;
+}
+div.error > span.tatitle{
+  color: #333;
+  text-shadow: #fff 0 1px 0;
+}
+div.error > span.tatitle a{
+  color: #33b;
+}
+div.error > span.title {
+	color: #c80202;
+}
+div.error > span.subtitle {
+	background: url(/static/v4/images/arrow_error.png) left center no-repeat;
+	display:inline-block;
+	padding-left:10px;
+	font-size:14px;
+	margin-left:116px;
+}

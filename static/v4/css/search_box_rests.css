@@ -1,0 +1,488 @@
+/* --------- Start Rest List Search Box ------------- */
+
+#search_box_list {
+    background: url(/static/v4/images/search_bg_middle.jpg) repeat-y;
+    height: 80px;
+    width: 932px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 28px;
+}
+#search_box_heading_list {
+    width:646px;
+    padding: 0px;
+    margin: 0px;
+    float:left;
+}
+#search_box_heading_list_name {
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+    float:left;
+}
+#search_box_heading_list2 {
+    width:284px;
+    margin: 0px;
+    float:left;
+    padding: 0px;
+}
+#search_box_heading_list .span_red {
+    font-size:18px; /*14px;*/
+    font-weight:bold;
+    color:#000000; /*#993300;*/
+    margin: 0px;
+}
+#search_box_heading_list_name .span_red {
+    font-size:18px; /*14px;*/
+    font-weight:bold;
+    color:#000000; /*#993300;*/
+    margin: 0px;
+}
+#search_box_heading_list2 .span_red_small {
+    font-size:16px; /*14px;*/
+    font-weight:bold;
+    color:#000000; /*#993300;*/
+    margin: 0px;
+}
+#search_box_heading_list #span_black {
+    font-size:11px;
+    color:#000000;
+    margin: 0px;
+    padding-left:10px;
+}
+#search_box_heading_list_name #span_black {
+    font-size:11px;
+    color:#000000;
+    margin: 0px;
+    padding-left:10px;
+}
+#search_box_input {
+    width:430px;
+    height:40px;
+    float:left;
+    border:0px;
+    margin-top:5px;
+}
+#search_input {
+    font-size:16px;
+    color:#666666;
+    border: none;
+    background:url(/static/v4/images/search_listing_bg.jpg) no-repeat;
+    padding:8px;
+    width: 430px;
+    float:left;
+    outline:none;
+}
+#search_input_keyword {
+    font-size:12px;
+    color:#666;
+    border:none;
+    background:url(/static/v4/images/address_field_formate3.jpg) no-repeat;
+    padding:8px;
+    width: 457px;
+    outline:none;
+    height:20px;
+    margin-top:6px;
+    line-height:20px;
+    float:left;
+}
+#city_input_keyword {
+    font-size:12px;
+    color:#666;
+    border:none;
+    background:url(/static/v4/images/city_field_formate3.jpg) no-repeat;
+    padding:9px;
+    width: 239px;
+    outline:none;
+    height:20px;
+    margin:6px 20px 0 0;
+    float:left;
+    line-height:20px;
+}
+#search_box_button {
+    width:146px;
+    height:40px;
+    float:left;
+    border:0px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+#restaurant_type {
+    width:280px;
+    height:36px;
+    float:left;
+    border:0px;
+    margin:5px 0px 0px 70px;
+    background:url(/static/v4/images/cuisine_filter_background.jpg) no-repeat;
+    padding: 4px 0px 0px 4px;
+}
+#restaurant_type select {
+    color:#666666;
+    height:25px;
+    width:273px;
+    border:1px #cccccc solid;
+    font-size:14px;
+    padding:2px;
+    outline:none;
+    overflow:scroll;
+}
+#more_opt {
+    float:left;
+    width:150px;
+    margin-top:2px;
+}
+#search_box_filters {
+    width:952px;
+    height:33px;
+    padding:10px 0 0 28px;
+    background-image: url(/static/v4/images/search_bg_middle_filters.jpg);
+    background-repeat: repeat-y;
+}
+.search_box_filters_title {
+    font-size:16px;
+    color:#000;
+    float:left;
+    margin-right:2px;
+    padding-top: 4px;
+}
+.search_box_filters_itens {
+    float:left;
+    margin-right:12px;
+    font-size:14px;
+    color:#993300;
+    padding-top:2px;
+    line-height:22px;
+}
+.filters_Black {
+    color:#000000;
+    font-weight:bold;
+    font-size:16px;
+}
+#search_box_filters_itens_last {
+    float:left;
+    margin-right:5px;
+    font-size:14px;
+    color:#993300;
+    padding-top: 2px;
+    line-height:22px;
+}
+.search_box_filters_itens select {
+    border:1px #999999 solid;
+    width:78px;
+    padding:2px;
+    margin-right:5px;
+}
+.search_box_filters_itens input, .search_box_filters_itens_last input {
+    margin-left: -28px;
+}
+.hsearch {
+    width: 100%;
+    clear: both;
+    margin-bottom:20px;
+}
+.search_input {
+    background:url(/static/v4/images/address_field_name.jpg) no-repeat scroll 0 0 transparent;
+    border:medium none;
+    color:#666666;
+    font-size:20px;
+    outline:medium none;
+    padding:7px 8px 6px;
+    width:290px;
+    margin-top:8px;
+}
+.search_button {
+    border: none;
+    background:url(/static/v4/images/new/search_redN.png) no-repeat;
+    width: 134px;
+    height: 35px;
+    float: right;
+    margin-top:4px;
+}
+#search_by_address {
+    float:right;
+    font-size:14px;
+    height:20px;
+    margin:45px 0 0 45px;
+    width:120px;
+}
+/* ---------- End Rest List Search Box -------------- */
+
+/* ---------- New Rest List Search Box -------------- */
+#search_box_container {
+    height: 70px;
+    width: 932px;
+    padding: 14px 24px;
+    background:url(/static/v4/images/search_bg_middle.jpg) repeat-y scroll 0 0 transparent;
+    position:relative;
+    overflow: hidden;
+}
+.search_input_cells {
+    float:left;
+    width:400px;
+}
+.search_input_cells_trending_where {
+    float:left;
+}
+.search_input_cells_trending_what {
+    float:left;
+}
+.search_input_cells input {
+    font-size:16px;
+    color:#666666;
+    border: none;
+    background:url(/static/v4/images/new/search_input_bgN.png) no-repeat;
+    padding:8px;
+    width: 346px;
+    outline:none;
+}
+.search_input_cells_trending_where input {
+    font-size:12px;
+    color:#666666;
+    border: none;
+    background:url(/static/v4/images/what_field_trending.png) no-repeat transparent;
+    width: 253px;
+    outline:none;
+    height: 33px;
+    padding: 5px 0px 5px 5px;
+}
+.search_input_cells_trending_what input {
+    font-size:12px;
+    color:#666666;
+    border: none;
+    background:url(/static/v4/images/what_field_trending.png) no-repeat 0 5px transparent;
+    width: 253px;
+    outline:none;
+    height: 33px;
+    padding: 5px 0px 5px 5px;
+}
+.search_input_cells #divSelect {
+    background:url(/static/v4/images/new/search_input_bgN.png) no-repeat;
+    padding:6px 8px 8px 8px;
+    width: 346px;
+}
+.search_input_cells select {
+    font-size:16px;
+    color:#666666;
+    border: none;
+    background:#dddddd;
+    width: 346px;
+    outline:none;
+}
+.search_input_cells label {
+    color: #000000;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size:18px;
+    float: none;
+    height: inherit;
+    margin: 0px 0px 4px 0px;
+    padding: 0px;
+    width: 360px;
+    text-align:left;
+    
+}
+.search_input_cells label span {
+    color: #666666;
+    font-size:12px;
+    display:inline-block;
+    margin-left:6px;
+    font-weight:normal;
+}
+#search_button {
+    background: url(/static/v4/images/new/search_redN.png) no-repeat;
+    height: 35px;
+    border:none;
+    width: 134px;
+    outline:none;
+    position: absolute;
+    top:42px;
+    right:30px;
+    cursor: pointer;
+}
+#search_button_trending {
+    background: url(/static/v4/images/discover_btn_new.png) no-repeat 0 5px transparent;
+    height: 68px;
+    margin: 35px 0px 0px 230px;
+    border:none;
+    width: 155px;
+    outline:none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#search_button_trending_loggedin {
+    background: url(/static/v4/images/discover_btn_new.png) no-repeat 0 5px transparent;
+    height: 68px;
+    margin: 35px 0px 0px 90px;
+    border:none;
+    width: 155px;
+    outline:none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#filter_tab {
+    background:#eeeeee;
+    height:34px;
+    position:relative;
+    border:1px solid #bbbbbb;
+    border-bottom:none;
+    padding-top:8px;
+    
+}
+#Settings {
+    background: url(/static/v4/images/gear_icon.png) right center no-repeat;
+    height: 20px;
+    width: 64px;
+    position: absolute;
+    top: 12px;
+    right: 24px;
+    padding: 5px 25px 0px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#filter_toggle {
+    background:url(/static/v4/images/search_bg_middle.jpg) repeat-y scroll 0 0 transparent;
+    height:32px;
+    position:relative;
+    border-bottom:1px solid #D0D0D0;
+}
+#toggleLink {
+    height:22px;
+    padding:4px 15px 0px 0px;
+    width:124px;
+    margin-right:26px;
+    display:block;
+    font-size:12px;
+    font-weight:bold;
+    float: right;
+    background-position: right top;
+}
+.toggleOpen {
+    background:url(/static/v4/images/new/icons/icn_arrowup-filters.png) no-repeat;
+}
+.toggleClose {
+    background:url(/static/v4/images/new/icons/icn_arrowdown-filters.png) no-repeat;
+}
+
+#main_filters {
+    margin-left: 20px;
+    width: 780px;
+    float: left;
+}
+#main_filters span {
+    padding-right: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+#filter_tab img {
+    position:absolute;
+    bottom:-1px;
+    left:20px;
+}
+#filter_opt_container {
+    height:128px;
+    background:url(/static/v4/images/search_bg_middle.jpg) repeat-y scroll 0 0 transparent;
+    padding:13px 20px;
+    display:none;
+    position:relative;
+}
+.filter_opt_cells {
+    float:left;
+}
+.list, .lightfaceMessageBox ul, .filter_opt_cells ul {
+    list-style: none outside none;
+    padding:0px;
+    font-size:12px;
+    margin:0px;
+    height: 92px;
+    overflow: hidden;
+}
+.list .item, .lightfaceMessageBox ul li, .filter_opt_cells ul li {
+    outline:none;
+    margin-bottom:4px;
+    font: 100% Arial, Helvetica, sans-serif;
+}
+.lightfaceMessageBox ul {
+    height: auto;
+    overflow: auto;
+}
+.lightface .lightfaceContent {
+}
+.lightfaceMessageBox ul.cuisines {
+    -moz-column-count: 1;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    column-count: 3;
+    column-gap: 10px;
+}
+ul.cuisines li {
+    width: 130px;
+    float: left;
+    list-style-type: none;
+    text-align: left;
+}
+.lightface div.lightfaceMessageBox {
+    padding: 5px 5px;
+    text-align: left;
+}
+.filter_opt_cells_split {
+    height:40px;
+    position:relative;
+    margin-top:18px;
+}
+.filter_opt_cells_split select {
+    border: 1px solid #999999;
+    margin-right: 5px;
+    padding: 2px;
+    width:120px;
+}
+.filter_opt_cells_split img {
+    position:absolute;
+    top:-6px;
+    right:24px;
+}
+.opt_title {
+    color:#790000;
+    font-weight:bold;
+    margin:0px 0px 4px 4px;
+    display:block;
+    font-size:12px;
+}
+.opt_link {
+    color:#6666cc;
+    font-size:12px;
+    margin-left:4px;
+}
+.opt_link:hover {
+    color:#6666cc;
+    text-decoration:underline;
+}
+.available {
+    margin-top:0px;
+    width:100px;
+}
+.dtype_with {
+    padding-left: 30px;
+    width: 130px;
+}
+.distance_with {
+    width:120px
+}
+.cuisines_with {
+    width:115px
+}
+.features_with {
+    width:160px
+}
+.price_with {
+    width:94px
+}
+.payments_with {
+    width:140px
+}
